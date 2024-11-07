@@ -49,7 +49,24 @@ Model Development: -
 In this project I experimented with several state-of-the-art Convolutional Neural Network (CNN) architectures including Xception. MobileNet and InceptionV3 each augmented with Differential Attention Mechanism to improve feature extraction.
 
 ## Performance Evaluation:-
-The models were evaluated on Accuracy, Precision, Recall and F1-Score metrics. Notably, the MobileNet model achieved an Accuracy = 81%, significantly improving subtype classification.
 
+The models were evaluated on Accuracy, Precision, Recall and F1-Score metrics.
+
+(1) Xecption ->
+      Presision = [0.77, 0.54, 0.52, 0.86, 0.78]
+      Recall = [0.77, 0.50, 0.57, 0.71, 0.88]
+      F1-Score = [0.77, 0.52, 0.54, 0.77, 0.83]
+      
+(2) MobileNet ->
+      Presision = [0.82, 0.76, 0.67, 0.84, 0.78]
+      Recall = [0.87, 0.61, 0.62, 0.85, 0.94]
+      F1-Score = [0.84, 0.67, 0.64, 0.85, 0.85]
+      
+(3) MobileNet ->
+      Presision = [0.83, 0.77, 0.63, 0.88, 0.82]
+      Recall = [0.88, 0.60, 0.60, 0.91, 0.97]
+      F1-Score = [0.85, 0.67, 0.61, 0.89, 0.89]
+      
+      
 ## Impact:-
 This project not only strengthens the application of Deep Learning in Medical Diagnostics but also highlights the importance of precise classification in enhancing treatment strategies for Ovarian Cancer patients.
